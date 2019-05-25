@@ -60,8 +60,21 @@ font-family: 'Roboto Slab', serif; */
   background: #f9f9f9;
 }
 
-ul li:hover {
+#todoList li:hover {
   background: #ddd;
+}
+
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #000;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
 }
 
 #todoList li.checked {
