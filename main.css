@@ -77,6 +77,10 @@ ul li.checked::before {
   width: 7px;
 }
 
+ul li.checked {
+  text-decoration: line-through;
+}
+
 #todoList li.checked {
 
 }
