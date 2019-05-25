@@ -48,5 +48,14 @@ font-family: 'Roboto Slab', serif; */
 }
 
 #todoList li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+
+
+#todoList li.checked {
 
 }
