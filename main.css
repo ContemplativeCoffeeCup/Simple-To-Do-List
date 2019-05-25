@@ -13,6 +13,8 @@ font-family: 'Roboto Slab', serif; */
   text-align: center;
 }
 
+
+
 #heading h1 {
   font-family: 'Roboto Slab', serif;
   font-size: 52px;
@@ -44,7 +46,9 @@ font-family: 'Roboto Slab', serif; */
 }
 
 #todoList {
-
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 #todoList li {
@@ -54,6 +58,12 @@ font-family: 'Roboto Slab', serif; */
   background: #eee;
   font-size: 18px;
   transition: 0.2s;
+
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 #todoList li:nth-child(odd) {
