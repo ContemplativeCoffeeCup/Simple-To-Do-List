@@ -60,6 +60,10 @@ font-family: 'Roboto Slab', serif; */
   background: #f9f9f9;
 }
 
+ul li:hover {
+  background: #ddd;
+}
+
 #todoList li.checked {
 
 }
