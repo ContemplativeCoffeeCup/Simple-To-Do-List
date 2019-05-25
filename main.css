@@ -1,13 +1,46 @@
+/* #000502
+#448086
+#037a84
+#dbfeec */
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
+
 #heading {
-  background-color: #5ac87e;
+  border-radius: 20px 20px 0px 0px;
+  background-color: #448086;
+  text-align: center;
+}
+
+#heading h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 52px;
+  color: #000502;
+  margin-bottom: 10px;
 }
 
 #addTask {
-
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid #037a84;
+  background-color: #dbfeec;
+  color: #000502;
+  padding: 4px;
+  width: 70%;
 }
 
 .addBtn {
-
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #dbfeec;
+  padding: 4px;
+  width: 20%;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 #todoList {
