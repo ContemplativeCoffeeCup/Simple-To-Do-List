@@ -64,11 +64,11 @@ body {
   transition: 0.2s;
   font-family: 'Montserrat', sans-serif;
 
-  /* make the list items unselectable */
+  /* make the list items unselectable 
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
+  user-select: none;*/
 }
 
 #todoList li:nth-child(odd) {
