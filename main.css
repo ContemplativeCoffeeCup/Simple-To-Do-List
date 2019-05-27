@@ -5,9 +5,13 @@ body {
   background-color: #FAFAFA;
 }
 
+#page {
+  box-shadow: 0px 4px 8px  rgba(0,0,0,0.6);
+	border-radius:10px 10px 0px 0px;
+}
 
 #heading {
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
   background-image: linear-gradient(#C6D7C6, #D3DED3, #C6D7C6);
   text-align: center;
 }
