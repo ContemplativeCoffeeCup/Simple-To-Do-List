@@ -55,3 +55,20 @@ function newElement() {
     }
   }
 }
+
+
+// add task with the enter key
+var input = document.getElementById("addTask");
+
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+    event.preventDefault();
+    document.getElementById("addBtn").click();
+  }
+});
+
+document.addEventListener('click', function (event) {
+  if (event.target.tagName === 'LI') {
+    event.target.classList.toggle('checked')
+  }
+ }, false);
