@@ -1,3 +1,5 @@
+
+
 // Create a "close" button and append it to each list item
 var myNodelist = document.getElementsByTagName("LI");
 var i;
@@ -19,14 +21,6 @@ for (i = 0; i < close.length; i++) {
     div.style.display = "none";
   }
 }
-
-
-// toggle check when clicking on list item
-document.addEventListener('click', function (event) {
-  if (event.target.tagName === 'LI') {
-    event.target.classList.toggle('checked')
-  }
- }, false);
 
 
 // Create a new list item when clicking on the "Add" button
@@ -67,6 +61,8 @@ input.addEventListener("keyup", function(event) {
   }
 });
 
+
+ // toggle check when clicking on list item
 document.addEventListener('click', function (event) {
   if (event.target.tagName === 'LI') {
     event.target.classList.toggle('checked')
